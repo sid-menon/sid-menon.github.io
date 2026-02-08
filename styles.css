@@ -238,6 +238,10 @@ main {
   color: var(--ink);
 }
 
+body.dark .lead {
+  color: #eef2f7;
+}
+
 .hero-actions {
   display: flex;
   align-items: center;
@@ -534,3 +538,4 @@ body.dark .site-footer {
     position: static;
   }
 }
+
