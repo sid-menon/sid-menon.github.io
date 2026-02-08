@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>R3Synergy Inc. | Contact</title>
+    <link rel="icon" href="r3logo.png" type="image/png" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600;700&family=Space+Grotesk:wght@400;500;600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="page">
+      <header class="site-header">
+        <a class="logo" href="home.html">
+          <img class="logo-image" src="r3logo.png" alt="R3Synergy Inc." />
+          R3Synergy Inc.
+        </a>
+        <nav class="site-nav">
+          <a class="nav-link" href="home.html">Home</a>
+          <a class="nav-link" href="services.html">Services</a>
+          <a class="nav-link" href="careers.html">Careers</a>
+          <a class="nav-link is-active" href="contact.html">Contact</a>
+        </nav>
+        <button class="cta theme-toggle" type="button" aria-label="Toggle dark mode">
+          <span class="moon" aria-hidden="true"></span>
+        </button>
+      </header>
+
+      <main>
+        <section class="hero compact reveal">
+          <div class="hero-copy">
+            <p class="eyebrow">Contact us</p>
+            <h1>We would love to hear from you.</h1>
+            <p class="lead">
+              Whether you are seeking a technology partner, career opportunities,
+              or more information about our services, our team is ready to connect.
+            </p>
+          </div>
+        </section>
+
+        <section class="contact-grid reveal">
+          <form class="contact-form" action="contact.php" method="post">
+            <label>
+              Full name
+              <input type="text" name="name" placeholder="Your name" required />
+            </label>
+            <label>
+              Work email
+              <input
+                type="email"
+                name="email"
+                placeholder="name@company.com"
+                required
+              />
+            </label>
+            <label>
+              Company
+              <input type="text" name="company" placeholder="Organization" />
+            </label>
+            <label>
+              Message
+              <textarea
+                rows="5"
+                name="message"
+                placeholder="Tell us what you're planning."
+                required
+              ></textarea>
+            </label>
+            <button class="cta" type="submit">Send message</button>
+          </form>
+
+          <aside class="contact-panel">
+            <h2>Contact details</h2>
+            <p>We will respond within 24-48 hours.</p>
+            <div class="contact-detail">
+              <strong>Head Office</strong>
+              <span>Calgary, AB, Canada</span>
+            </div>
+            <div class="contact-detail">
+              <strong>Email</strong>
+              <span>hr@r3synergy.com</span>
+            </div>
+            <div class="contact-detail">
+            </div>
+          </aside>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="footer-brand">
+          <img class="logo-image small" src="r3logo.png" alt="R3Synergy Inc." />
+          <strong>R3Synergy Inc.</strong>
+        </div>
+        <div class="footer-links">
+          <a href="services.html">Services</a>
+          <a href="careers.html">Careers</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <p class="footnote">R3Synergy Inc. All rights reserved.</p>
+      </footer>
+    </div>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
