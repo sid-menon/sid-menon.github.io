@@ -26,6 +26,8 @@ body {
 
 body.dark {
   color: #eef2f7;
+  --ink: #eef2f7;
+  --slate: #c8d0d8;
   background: radial-gradient(circle at top, #1a2430 0%, #0f1822 55%, #0b1118 100%);
 }
 
