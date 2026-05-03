@@ -86,14 +86,14 @@ body.dark .site-header {
   display: flex;
   align-items: center;
   gap: 12px;
-  font-size: 1.2rem;
+  font-size: 1.45rem;
   font-weight: 600;
   letter-spacing: 0.02em;
 }
 
 .logo-image {
-  width: 36px;
-  height: 36px;
+  width: 44px;
+  height: 44px;
   object-fit: contain;
 }
 
@@ -105,10 +105,12 @@ body.dark .site-header {
 .site-nav {
   display: flex;
   gap: 18px;
-  font-size: 0.95rem;
+  font-size: 0.86rem;
 }
 
 .nav-link {
+  font-size: inherit;
+  font-weight: 500;
   padding: 8px 14px;
   border-radius: 999px;
   border: 1px solid transparent;
